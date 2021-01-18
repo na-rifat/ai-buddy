@@ -1,0 +1,49 @@
+.talk,
+.stop {
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: lightgray;
+    border: 1px solid rgb(0, 124, 240);
+    display: inline-block;
+    font-family: Hack;
+    cursor: pointer;
+    margin: 0 20px;
+}
+.talk:hover,
+.stop:hover {
+    background-color: white;
+}
+
+.tool-bar {
+    text-align: center;
+    padding: 20px 0;
+}
+.display {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Hack;
+    font-size: 2em;
+    text-align: center;
+    padding: 50px 0;
+}
+
+body {
+    /* background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+    /* background-image: linear-gradient(to right top, #112036, #203343, #35464e, #4e595b, #6a6b6b); */
+    /* background-image: linear-gradient(to right top, #003992, #0073d1, #00a7dc, #00d7ae, #37ff5a); */
+    /* background-image: linear-gradient(
+        to bottom,
+        #003992,
+        #0073d1,
+        #00a7dc,
+        #00d7ae,
+        #37ff5a
+    ); */
+    background-color: cornflowerblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vw; */
+    margin: 0;
+}
